@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import ReactPlayer from 'react-player'
+import VideoPlayer from '../components/VideoPlayer'
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           We appreciate you!
-        </h1>       
+        </h1>
 
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -83,12 +83,16 @@ export default function Home() {
           </div>
 
         </div>
+        <div className={styles.grid}>
+          <VideoPlayer />
+        </div>
+
       </main>
 
       <footer className={styles.footer}>       
           
           <span className={styles.logo}>
-            <Image src="/favicon.ico" alt="P4mth3r Moth" width={100} height={100} />Made with love by ToeFrog and Luce<Image src="/favicon.ico" alt="P4mth3r Moth" width={100} height={100} />
+            <Image src="/favicon.ico" alt="P4nth3r Moth" width={100} height={100} />Made with love by ToeFrog and Luce<Image src="/favicon.ico" alt="P4mth3r Moth" width={100} height={100} />
           </span>
         
       </footer>
