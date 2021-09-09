@@ -119,7 +119,7 @@ export default function Home() {
         <div className={styles.grid}>
           {
             videoIDs.map(videoId => {
-              return <VideoPlayer embedId={videoId} key={videoId}/>
+              return <VideoPlayer key={videoId} embedId={videoId} />
             })
           }
         </div>
