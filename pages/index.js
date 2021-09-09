@@ -91,11 +91,35 @@ export default function Home() {
             <p>I love Salma because she is amazing, and her community is a great relfection of this: she is amazing at curating a brilliant and supportive community. She&apos;s inclusive, thoughtful, and does her best to keep things positive and comfortable. The environment and `vibes` she brings are unparalleled and I wake up at 4:00am to be sure I catch her streams, because they&apos;re a great start to my day as well. Forever grateful to know Salma, and will continue to support her in whatever way I can!</p>
           </div>
 
+          <div className={styles.card}>
+            <h2>SociableSteve</h2>
+            <p>&quot;Whitep4nth3r,</p>
+            <p>Before I stumbled across you building a music-related website on Twitch I hadn&apos;t been exposed to the injustices of discrimination that plague our industry, and the world at large. I was generally surrounded by the same types of people as myself, and so any discrimination was somewhere else. Over the past 18 months you&apos;ve not only highlighted these problems, and their consequences, but created a platform to help and encourage people to shout about it.</p>
+            <p>You&apos;ve managed to create an amazing and diverse community of people from different backgrounds, genders, and ideologies, who accept and support each other, not just despite our differences, but celebrating them. Without this amazing space on the Internet you&apos;ve carved out I&apos;d still be stuck in meetings surrounded by white men complaining about a lack of diversity and not doing anything about it. Your constant push for self-improvement, and the desire to improve the situation around you, helped guide me away from that job, where morals were questionable and diversity was laughable, to a place which has diversity built in, and where I can do some real good in helping to build a more diverse team.</p>
+            <p>Thank you for all the time and effort you&apos;ve put in. Never stop shouting about the injustices around you, and never stop pushing and helping people to do something about them.&quot;</p>
+          </div>
+
+          <div className={styles.card}>
+            <h2>MetalAndCoffee</h2>
+            <p>&quot;Hi Salma!</p>
+            <p>Even though we’ve only known each other for a short time, the impact that you’ve had on me as a developer, as a new Twitch streamer and as a woman navigating the tech industry has been monumental.</p>
+            <p>I specifically remember being so unsure and so doubtful about coding on stream and then finding your channel and seeing how great & fun you are. Seeing you working on fun projects while being super helpful to anyone who may have questions was what I needed to get myself started. And so I did! And then one day you popped up while I was streaming 😱😱😱 I definitely meant it when I said that you were why I started streaming code. </p>
+            <p>I look forward to continuing to be apart of your community. I look forward to The Claw team conquering the world with you are their fearless leader. And I look forward to continuing to build stuff, learn things and love what I do.</p>
+            <p>❤️&quot;</p>
+          </div>
+
+          <div className={styles.card}>
+            <h2>Ollie</h2>
+            <p>&quot;In July 2020 in one of the many discord servers I’m a member of, someone shared a link to a new science and tech streamer, this streamer&apos;s name was whitep4nt3r. Within 15 minutes of watching the stream I hit the follow button. At this time the world was in lockdown due to Covid 19 and my work life had changed from working approx. 50% remotely to 100% (like most of the office based working population). Without knowing it I needed interaction outside the four walls I shared with my family! For almost 12 months I watched the streams on an off, but I didn’t join the Discord until June 2021!</p>
+            <p>On 30th June 2021 I offered my help with womenwhostream.tech. This was the moment the claws sunk in! Whitep4nth3r and the claw community allowed and accepted my offer, this enabled me to get INVOLVED in a community and LEARN about the twitch api, contentful, nextjs and vercel in a way that wasn’t just consuming tutorials online, and it had meaning. That meaning was to SUPPORT women in technology. I’ve worked in technology since the 90’s and have been lucky enough to have never directly witness any discrimination towards women in the workplace. However, that made me naive to the problem. Whitep4nth3r’s voice regards this issue has made me more AWARE and want to HELP.</p>
+            <p>For this I thank whitep4nth3r and the claw.&quot;</p>
+          </div>  
+
         </div>
         <div className={styles.grid}>
           {
             videoIDs.map(videoId => {
-              return <VideoPlayer embedId={videoId} />
+              return <VideoPlayer embedId={videoId} key={videoId}/>
             })
           }
         </div>
