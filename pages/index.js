@@ -3,6 +3,15 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import VideoPlayer from '../components/VideoPlayer'
 
+var videoIDs = [
+  '2zkJe3XKm1s', // ToeFrog
+  '4Z6yFebIKT8', // Luce
+  'ND9oiby1Jeo', // FiniteSingularity
+  'qz5u7GMWoSQ', // Dr. Dinomight
+  'lo2TntviNoI', // BrattDamon
+  'UO_yPrM4rZE', // Moody
+];
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -16,7 +25,7 @@ export default function Home() {
         <h1 className={styles.title}>
           We appreciate you!
         </h1>
-
+        
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>GivenToMeow</h2>
@@ -84,7 +93,11 @@ export default function Home() {
 
         </div>
         <div className={styles.grid}>
-          <VideoPlayer />
+          {
+            videoIDs.map(videoId => {
+              return <VideoPlayer embedId={videoId} />
+            })
+          }
         </div>
 
       </main>
