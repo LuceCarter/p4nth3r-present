@@ -121,8 +121,11 @@
   }
 }
 
-.video-responsive{
-  border: .25rem solid #f11012;
+.video{
+  box-shadow: .5rem .5rem 0 0 #ffb626;
+  border: .25rem solid #ffffff;
+  height: 488px;
+  margin-bottom: 1rem;
 }
 
 .header {
