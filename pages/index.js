@@ -131,12 +131,8 @@ export default function Home() {
         </div>        
       </main>
 
-      <footer className={styles.footer}>       
-          
-          <span className={styles.logo}>
+      <footer className={styles.footer}>          
             <Image src="/favicon.ico" alt="P4nth3r Moth" width={100} height={100} />Made with love by ToeFrog and Luce<Image src="/favicon.ico" alt="P4mth3r Moth" width={100} height={100} />
-          </span>
-        
       </footer>
     </div>
   )
