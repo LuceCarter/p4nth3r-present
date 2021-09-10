@@ -16,15 +16,29 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>We Love WhiteP4nth3r</title>
+        <title>We ❤️ WhiteP4nth3r</title>
         <meta name="description" content="A gift for WhiteP4nth3r" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header className={styles.header}>
+        <div>
+          <h1 className={styles.title}>
+            Thank you Whitep4nth3r for helping us build stuff, learn things, and love what we do!
+          </h1>
+        </div>
+      </header>
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          We appreciate you!
-        </h1>
+        
+
+        <div className={styles.grid}>
+          {
+            videoIDs.map(videoId => {
+              return <VideoPlayer key={videoId} embedId={videoId} />
+            })
+          }
+        </div>
         
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -116,13 +130,7 @@ export default function Home() {
           </div>  
 
         </div>
-        <div className={styles.grid}>
-          {
-            videoIDs.map(videoId => {
-              return <VideoPlayer key={videoId} embedId={videoId} />
-            })
-          }
-        </div>
+        
 
       </main>
 

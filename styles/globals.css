@@ -2,9 +2,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #f11012;
+  font-family: "Work Sans", sans-serif;
+  background-image: url("https://whitep4nth3r.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F56dzm01z6lln%2F2Y5x7Prti9jaKXChQnbBNd%2Fcdc165b176ea7b6b52aae169ef0688e0%2Fmoth_tile_red.png&w=3840&q=75");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 a {
