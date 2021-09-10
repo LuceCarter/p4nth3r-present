@@ -8,6 +8,7 @@ const VideoPlayer = ({ embedId }) => (
       src={`https://www.youtube.com/embed/${embedId}`}
       frameBorder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      title={`${embedId}-p4nth3r`}
       allowFullScreen
     />
   </div>
