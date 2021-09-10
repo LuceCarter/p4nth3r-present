@@ -43,15 +43,15 @@ export default function Home() {
         <div className={styles.grid}>
           <div className={styles.card}>
             <h2>GivenToMeow</h2>
-            <p>&quot;You are awesome. Thank you for everything you do. &quot;</p>
+            <p>&quot;You are awesome. Thank you for everything you do.&quot;</p>
           </div>
 
           <div className={styles.card}>
             <h2>DenverTheCoder</h2>
             <p>&quot;Since stumbling upon WhiteP4nth3rs streams, I have learned so much from them in using JS that I am semi-comfortable using it. I have learned a lot from not just their streams but also from the amazing community they have built up on Discord and I am beyond honoured to be a part of it.</p>
             <p>I am not great with words so I&apos;ll finish with this sentiment. I am unable to express my gratitude for the patience and kindness that has been shown to me when I ask for help or join in the banter on Discord.</p>
-            <p>Some day I&quot;ll even get around to contributing to various projects that I promised I would.</p>
-            <p>Much love to The Cl4w! &quot;</p>
+            <p>Some day I&apos;ll even get around to contributing to various projects that I promised I would.</p>
+            <p>Much love to The Cl4w!&quot;</p>
           </div>
 
           <div className={styles.card}>
@@ -61,16 +61,16 @@ export default function Home() {
 
           <div className={styles.card}>
             <h2>Steffi128</h2>
-            <p>&quot; Watching you mix up the world of technology with everything you have on your mind is inspiring and you deserve all the attention you get, because you&apos;re awesome! ❤️</p>
+            <p>&quot;Watching you mix up the world of technology with everything you have on your mind is inspiring and you deserve all the attention you get, because you&apos;re awesome! ❤️</p>
             <p>Thank you for starting all of this, especially, last year, in a time where all of our lives were changed significantly, you have given so many people, including myself, a place where they can come into to just chat, help, endorse each other, and just be their true best selves.&quot;</p>
           </div>
 
           <div className={styles.card}>
             <h2>thatn00b__</h2>
-            <p>&quot; &lt;I&apos;m bad with these kind of messages, with words, or to get those out of my head, or to create the ideas in this head, when its not code xD, so sorry in advance&hat;&hat;&gt;</p>
+            <p>&quot;&lt;I&apos;m bad with these kind of messages, with words, or to get those out of my head, or to create the ideas in this head, when its not code xD, so sorry in advance&gt;</p>
             <p>Once there was a  big bang, then there was a Moth …. &lt;insert Dj Stop sound here&gt;</p>
             <p>Lets get back to the time before the Moth. Back then I just saw and followed a newly channel called whitep4nth3r, since we both started out at the same time-ish - it was just good to be not alone in this endeavor</p>
-            <p>One day, there was a big issue with a lot of ngTemplateOutlet madness, after lots headaches and nonsense this was finally solved. Since then I somehow became just a chat cleaning man Kappa. The End ….. &ly;insert Dj Stop sound here .. again&gt;</p>
+            <p>One day, there was a big issue with a lot of ngTemplateOutlet madness, after lots headaches and nonsense this was finally solved. Since then I somehow became just a chat cleaning man Kappa. The End ….. &lt;insert Dj Stop sound here .. again&gt;</p>
             <p>Joking aside - for now xD</p>
             <p>This year with you (and the stream) was funny, interesting, sometimes full of nonsense / great ideas, sometimes serious sometimes sad, and sometimes a mix of all at once.</p>
             <p>What I learned so far, was:</p>
@@ -81,7 +81,7 @@ export default function Home() {
             <p>We built things, we learned a lot and pretty sure we loved all of what we did the past year (expect tAiLwInD). But I think this is just the start, soon you’ll get 150+ average viewers, 200k Subs on YT,  millions of TikTok Followers - no more CARL and 400 next.js sites :P </p>
             <p>And I’m looking forward to be there and experience it besides you.</p>
             <p>Lets Go Claw, Go Moth, Go… what ever comes next — then this will be quite a Chimera haha </p>
-            <p>Thank you the the awesome year, and the next 5 of em &quot;</p>
+            <p>Thank you the the awesome year, and the next 5 of em&quot;</p>
           </div>
 
           <div className={styles.card}>
@@ -90,7 +90,7 @@ export default function Home() {
             <p>Thank you for everything you have done for me since I started watching your livestreams and in the Discord.</p>
             <p>You were the reason that I started streaming and also the time you set aside to give me `Streaming 101` and all the other awesome things you have done.</p>
             <p>Also having your streams to look forward to watching every week (apart from your month break 🤣😔). They always makes me laugh and improves my day.</p>
-            <p>Hope you have a great day and build stuff, learn things and love what you do!! &quot;</p>
+            <p>Hope you have a great day and build stuff, learn things and love what you do!!&quot;</p>
           </div>
           
           <div className={styles.card}>
@@ -102,7 +102,7 @@ export default function Home() {
             <h2>imolalola</h2>
             <p>&quot;My first encounter with whitep4nth3r was actually a huge raid while I was just starting to get accustomed to streaming my programming development on Twitch. I was scared, nervous, excited, but mostly curious as to why ANYONE would raid me with such a huge audience! She was positive, encouraging, and friendly. The tech field and community can be daunting; whitep4nth3r very much changed that for me and lent the hand to guide the way.</p>
             <p>I now know her as Salma and can say that her impact on me personally and professionally has been profound. Whenever I get close to admitting defeat or throwing up the surrender flag, I remember that someone believes in me, wholeheartedly, and there has to be merit for someone having so much faith in me. So I continue, I keep going, and failure after failure I remember that I&apos;m getting closer to goals and dreams I long to achieve. That being said I am closer now than I ever have and the only way I can go from where I am professionally and personally is up. </p>
-            <p>I love Salma because she is amazing, and her community is a great relfection of this: she is amazing at curating a brilliant and supportive community. She&apos;s inclusive, thoughtful, and does her best to keep things positive and comfortable. The environment and `vibes` she brings are unparalleled and I wake up at 4:00am to be sure I catch her streams, because they&apos;re a great start to my day as well. Forever grateful to know Salma, and will continue to support her in whatever way I can!</p>
+            <p>I love Salma because she is amazing, and her community is a great relfection of this: she is amazing at curating a brilliant and supportive community. She&apos;s inclusive, thoughtful, and does her best to keep things positive and comfortable. The environment and `vibes` she brings are unparalleled and I wake up at 4:00am to be sure I catch her streams, because they&apos;re a great start to my day as well. Forever grateful to know Salma, and will continue to support her in whatever way I can!&quot;</p>
           </div>
 
           <div className={styles.card}>
@@ -127,11 +127,8 @@ export default function Home() {
             <p>&quot;In July 2020 in one of the many discord servers I’m a member of, someone shared a link to a new science and tech streamer, this streamer&apos;s name was whitep4nt3r. Within 15 minutes of watching the stream I hit the follow button. At this time the world was in lockdown due to Covid 19 and my work life had changed from working approx. 50% remotely to 100% (like most of the office based working population). Without knowing it I needed interaction outside the four walls I shared with my family! For almost 12 months I watched the streams on an off, but I didn’t join the Discord until June 2021!</p>
             <p>On 30th June 2021 I offered my help with womenwhostream.tech. This was the moment the claws sunk in! Whitep4nth3r and the claw community allowed and accepted my offer, this enabled me to get INVOLVED in a community and LEARN about the twitch api, contentful, nextjs and vercel in a way that wasn’t just consuming tutorials online, and it had meaning. That meaning was to SUPPORT women in technology. I’ve worked in technology since the 90’s and have been lucky enough to have never directly witness any discrimination towards women in the workplace. However, that made me naive to the problem. Whitep4nth3r’s voice regards this issue has made me more AWARE and want to HELP.</p>
             <p>For this I thank whitep4nth3r and the claw.&quot;</p>
-          </div>  
-
-        </div>
-        
-
+          </div> 
+        </div>        
       </main>
 
       <footer className={styles.footer}>       
